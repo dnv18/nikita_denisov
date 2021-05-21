@@ -1,0 +1,30 @@
+.div1{
+    background: url("../img/l.png") repeat-y left;
+}
+.div2{
+    background: url("../img/r.png") repeat-y right;
+}
+.div3{
+    background: url("../img/t.png") repeat-x top;
+}
+.div4{
+    background: url("../img/b.png") repeat-x bottom;
+}
+.div5{
+    background: url("../img/l-t.png") no-repeat top left;
+}
+.div6{
+    background: url("../img/r-t.png") no-repeat top right;
+}
+.div7{
+    background: url("../img/l-b.png") no-repeat bottom left;
+}
+.div8{
+    background: url("../img/r-b.png") no-repeat bottom right;
+}
+.div9{
+    padding: 2.5em;
+}
+p{
+    margin: 0;
+}
