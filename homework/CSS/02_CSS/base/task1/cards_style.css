@@ -1,28 +1,19 @@
-.card1{
+.card{
     background-image: url("../../cards.png");
     background-repeat: no-repeat;
     width: 140px;
     height: 200px;
-    background-position: -145px -197px;
+    position: relative;
     float: left;
-    position: fixed;
+}
+.card1{
+    background-position: -145px -197px;
 }
 .card2{
-    background-image: url("../../cards.png");
-    background-repeat: no-repeat;
-    width: 140px;
-    height: 200px;
     background-position: -433px -595px;
-    float: left;
-    position: relative;
-    left: 70px;
+    left: -70px;
 }
 .card3{
-    background-image: url("../../cards.png");
-    background-repeat: no-repeat;
-    width: 140px;
-    height: 200px;
     background-position: -288px -1391px;
-    float: left;
-    position: relative;
+    left: -140px;
 }

@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Page with blocks</title>
-  <link rel="stylesheet" href="task3_style.css">
+  <link rel="stylesheet" href="task2_add_style.css">
 </head>
 <body>
+<div class="main">
   <div class="main_page">
     <div class="navi_block">
       <h3>Блок навигации</h3>
@@ -16,32 +17,34 @@
         <li>Блок навигации наполните контентом достаточным, чтобы по высоте он начинал захватывать вторую статью, как показано в данном примере</li>
       </ul>
     </div>
-    <div>
+    <div class="main_content">
       <div class="article">
-        <h3>Статья 1</h3>
-        <p>Размер блока:
+        <h3 class="article_header">Статья 1</h3>
+        <p class="article_part">Размер блока:
           <br>Занимает всю доступную ширину
           <br>Должен присутствовать цвет фона
           <br>Во всех "статьях" сделайте отступ снизу от соседней равным .2em, при помощи
           <br>свойства margin-bottom</p>
       </div>
       <div class="article">
-        <h3>Статья 2</h3>
-        <p>Размер блока:
+        <h3 class="article_header">Статья 2</h3>
+        <p class="article_part">Размер блока:
           <br>Занимает всю доступную ширину
           <br>Должен присутствовать цвет фона
           <br>Во всех "статьях" сделайте отступ снизу от соседней равным .2em, при помощи
           <br>свойства margin-bottom Картинка вставленна при помощи тега, плавание
           <br>организованно по правому краю внутри данной статьи для этой картинки.<br>
-          <img class="icon_mail" src="../../icon_mail.png" alt="icon_mail">
         </p>
+        <div class="icon_mail">
+          <img src="../../icon_mail.png" alt="icon_mail">
+        </div>
         <div class="clear"></div>
       </div>
-      <div class="clear"></div>
-    </div>
-    <div class="footer">
-      <footer>Нижний блок, подвал. Занимает всю доступную ширину. Высота определяется помещённым внутрь контентом.</footer>
     </div>
   </div>
+  <div class="footer">
+    <footer>Нижний блок, подвал. Занимает всю доступную ширину. Высота определяется помещённым внутрь контентом.</footer>
+  </div>
+</div>
 </body>
 </html>

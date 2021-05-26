@@ -1,7 +1,6 @@
 .main_page{
     background-color: darkgray;
 }
-/*Что задать нужно, чтобы расстягивался на ширину вложенных блоков?*/
 .navi_block{
     width: 15em;
     background-color: lightgray;
@@ -10,7 +9,7 @@
 .article{
     background-color: darkcyan;
     margin-bottom: .2em;
-    float: left;
+    margin-left: 245px;
 }
 .icon_mail{
     float: right;
