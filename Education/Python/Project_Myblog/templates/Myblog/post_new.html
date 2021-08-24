@@ -1,0 +1,22 @@
+{% extends 'myblog/base.html' %}
+
+{% block content %}
+    <div class="container" style="margin-top: 85px">
+        <div class="row">
+            <div class="col-md-8 card mb-4  mt-3 left  top">
+                <div class="card-body">
+                    <h1 id="foot_text" style="font-size: 30px">New post</h1>
+                    <form method="POST" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        {{ form.as_p }}
+                        <button class="btn btn-success" type="submit">Save</button>
+                        <button class="btn btn-danger" type="button" onclick="history.back()">Back</button>
+                    </form>
+                </div>
+            </div>
+            {% block sidebar %}
+                {% include 'myblog/sidebar.html' %}
+            {% endblock sidebar %}
+        </div>
+    </div>
+{% endblock %}

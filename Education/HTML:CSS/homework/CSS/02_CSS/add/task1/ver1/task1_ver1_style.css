@@ -1,0 +1,14 @@
+.main{
+    padding: 2.5em;
+    background: url("../img/l-t.png") no-repeat top left,
+    url("../img/r-t.png") no-repeat top right,
+    url("../img/l-b.png") no-repeat bottom left,
+    url("../img/r-b.png") no-repeat bottom right,
+    url("../img/l.png") repeat-y left,
+    url("../img/r.png") repeat-y right,
+    url("../img/t.png") repeat-x top,
+    url("../img/b.png") repeat-x bottom;
+}
+p{
+    margin: 0;
+}

@@ -1,0 +1,24 @@
+.main_page{
+    background-color: darkgray;
+}
+.navi_block{
+    width: 15em;
+    background-color: lightgray;
+    float: left;
+}
+.article{
+    background-color: darkcyan;
+    margin-bottom: .2em;
+    margin-left: 245px;
+}
+.icon_mail{
+    float: right;
+}
+.footer{
+    float: left;
+    background-color: lightgray;
+    width: 100%;
+}
+.clear{
+    clear: both;
+}

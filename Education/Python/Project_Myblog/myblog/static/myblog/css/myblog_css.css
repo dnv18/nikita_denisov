@@ -1,0 +1,99 @@
+.body{
+    background-image: url("../img/bg1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.navbar{
+    background: lightgrey;
+    opacity: 0.8;
+
+
+}
+.nav-link , .navbar-brand{
+    color: black;
+    font-size: 25px;
+    text-shadow:
+    1px 1px 1px gray,
+    -1px 1px 1px gray;
+    cursor: pointer;
+}
+.nav-link{
+    margin-right: 1em !important;
+}
+.nav-link:hover{
+    background: #f4f4f4; color: red;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.navbar-toggler{
+    background:#fff !important;
+}
+.masthead1{
+    background: transparent url("../img/header-background-9-inches.jpeg");
+    height: auto;
+    padding-bottom: 15px;
+    box-shadow: 0 16px 48px #e3e7eb;
+    padding-top: 10px;
+}
+.container{
+    text-align: center;
+    flex-direction: column;
+}
+.flex-container{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    margin-top: 40px;
+    color: black;
+}
+.first {
+    margin: 30px;
+    width: 50%;
+    flex-grow: 3;
+}
+
+.second {
+    margin: 30px;
+    width: 50%;
+    flex-grow: 7;
+}
+
+.img {
+    max-width:100%;
+    height:auto;
+}
+
+.footer{
+    background-size: cover;
+    background: transparent fixed center;
+    position: relative;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    background-color: #fdfdfd;
+}
+.shadow {
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
+}
+.btn-danger {
+    color: #fff;
+    background-color: #f00000;
+    border-color: #dc281e;
+}
+.masthead {
+    background: #3398E1;
+    height: auto;
+    padding-bottom: 15px;
+    box-shadow: 0 16px 48px #E3E7EB;
+    padding-top: 10px;
+}
+#foot_text{
+    color: black;
+    font-size: 25px;
+    text-shadow:
+    1px 1px 1px gray,
+    -1px 1px 1px gray;
+    cursor: default;
+}

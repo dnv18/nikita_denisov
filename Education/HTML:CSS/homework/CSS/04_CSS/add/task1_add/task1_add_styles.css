@@ -1,0 +1,31 @@
+/*Как и base*/
+.border_for_div{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 0 14px;
+    padding: 5px;
+}
+li{
+    list-style-image: url(img/logo-list.jpg);
+}
+.img_before::before{
+    content: url(img/extref.png);
+}
+.word::after{
+    content: url(img/logo-doc.jpg);
+}
+.pdf::after{
+    content: url(img/logo-pdf.png);
+}
+.zip::after{
+    content: url(img/logo-zip.gif);
+}
+.word_hover:hover::after{
+    content: url(img/logo-doc.jpg);
+}
+.pdf_hover:hover::after{
+    content: url(img/logo-pdf.png);
+}
+.zip_hover:hover::after{
+    content: url(img/logo-zip.gif);
+}

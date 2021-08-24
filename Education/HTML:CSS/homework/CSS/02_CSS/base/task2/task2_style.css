@@ -1,0 +1,19 @@
+.main_list{
+    width: 350px;
+}
+.head_list{
+    font-weight: bold;
+}
+.list_first{
+    list-style: upper-roman;
+}
+.list_second{
+    list-style: lower-roman;
+}
+.code_block{
+    background-color: black;
+    color: green;
+    width: 400px;
+    max-height: 3em;
+    overflow: auto;
+}

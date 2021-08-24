@@ -1,0 +1,28 @@
+.table{
+    border-collapse: collapse;
+}
+td, th{
+    border-style: dashed;
+    border-width: 1px;
+    border-spacing: 0;
+    padding: 2px;
+}
+tr:nth-child(odd){
+    background-color: lightgrey;
+}
+tr:hover{
+    background-color: darkcyan;
+    cursor: pointer;
+    font-style: italic;
+}
+caption{
+    caption-side: bottom;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.first_row{
+    background-color: gray;
+}
+.name{
+    text-align: left;
+}

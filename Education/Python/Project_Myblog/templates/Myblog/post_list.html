@@ -1,0 +1,47 @@
+{% extends "myblog/base.html" %}
+{% block content %}
+    <style>
+        body {
+            font-family: "Roboto", sans-serif;
+            font-size: 18px;
+            background-color: #fdfdfd;
+        }
+
+        .card {
+            box-shadow: 0 16px 48px #E3E7EB;
+        }
+    </style>
+
+    <header class="masthead1" style="margin-top: 85px">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class=" col-md-8 col-md-10 mx-auto">
+                    <div class="site-heading">
+                        <h3 class=" site-heading my-4 mt-3 text-black"> Welcome to my awesome Blog! </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mt-3 left">
+                {% for post in posts %}
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <img class="img" src="{{ post.image.url }}" alt="Oops!">
+                        <h2 class="card-title">{{ post.title }}</h2>
+                        <p class="card-text">{{post.text|slice:":200" }}</p>
+                        <p class="card-text text-muted h6">{{ post.published_date }}, by {{ post.author }}</p>
+                        <a href="{% url 'post_detail' pk=post.pk %}" class="btn btn-primary">Read More &rarr;</a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% block sidebar %}
+                {% include 'myblog/sidebar.html' %}
+            {% endblock sidebar %}
+        </div>
+    </div>
+{%endblock%}
