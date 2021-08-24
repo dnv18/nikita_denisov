@@ -1,9 +1,0 @@
-.main{
-    margin: 2.5em;
-    border-style: solid;
-    border-width: 2.5em;
-    border-image: url("../img/ramka.png") stretch 100/2;
-}
-p{
-    margin: 0;
-}
